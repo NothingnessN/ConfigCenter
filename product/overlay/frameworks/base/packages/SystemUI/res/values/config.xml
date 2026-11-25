@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-License-Identifier: Apache-2.0
+
+     The installed ThemePicker handles ACTION_SET_WALLPAPER as com.android.wallpaper.
+     Keep SystemUI's lock-screen long-press destination aligned with that package.
+-->
+<resources>
+    <string name="config_wallpaperPickerPackage" translatable="false">com.android.wallpaper</string>
+</resources>
