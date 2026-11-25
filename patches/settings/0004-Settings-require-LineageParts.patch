@@ -1,0 +1,18 @@
+Subject: [PATCH] Settings: install the LineageParts used by native preferences
+
+Native gestures.xml inflates a LineagePartsPreference and needs the
+touchscreen_gesture_settings entry in the installed LineageParts catalog.
+Keep the native destination and install its dependency instead of hiding
+the exception or adding a replacement preference implementation.
+
+diff --git a/Android.bp b/Android.bp
+--- a/Android.bp
++++ b/Android.bp
+@@ -126,6 +126,7 @@ android_app {
+     system_ext_specific: true,
+     privileged: true,
+     required: [
++        "LineageParts",
+         "privapp_whitelist_com.android.settings",
+         "settings-platform-compat-config",
+     ],
