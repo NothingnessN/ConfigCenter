@@ -2,7 +2,9 @@
 # Include this directly from the top-level product makefile after GApps/product
 # configuration so its overlay path precedes inherited overlay paths.
 
-_d4rk_config_center_product_path := $(call my-dir)
+# Product makefiles are imported through an eval context where my-dir can be
+# empty. ConfigCenter's documented ROM location is fixed and repo-relative.
+_d4rk_config_center_product_path := packages/apps/ConfigCenter/product
 
 $(call inherit-product, $(_d4rk_config_center_product_path)/lineageparts.mk)
 

@@ -33,6 +33,11 @@ class ProductIntegrationTest(unittest.TestCase):
 
     def test_complete_fragment_prepends_overlay_and_inherits_package_list(self):
         text = (ROOT / "product/d4rk_crash_fixes.mk").read_text()
+        self.assertIn(
+            "_d4rk_config_center_product_path := packages/apps/ConfigCenter/product",
+            text,
+        )
+        self.assertNotIn("$(call my-dir)", text)
         assignment = text.index("PRODUCT_PACKAGE_OVERLAYS :=")
         own_overlay = text.index("$(_d4rk_config_center_product_path)/overlay", assignment)
         inherited = text.index("$(PRODUCT_PACKAGE_OVERLAYS)", own_overlay)
