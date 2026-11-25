@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d4rk_team_title">D4RK OS developers</string>
+    <string name="d4rk_nothingnessn_role">Creator and developer</string>
+    <string name="d4rk_1yigito_role">Developer · Wallpapers and designs</string>
+    <string name="d4rk_links_title">Links</string>
+    <string name="d4rk_github_title">NothingnessN on GitHub</string>
+    <string name="d4rk_donate_title">Support NothingnessN</string>
+    <string name="d4rk_donate_summary">Buy me a coffee</string>
+    <string name="d4rk_nothingnessn_instagram_title">NothingnessN on Instagram</string>
+    <string name="d4rk_1yigito_instagram_title">1yigito on Instagram</string>
+    <string name="config_center_dashboard_summary">Customize D4RK OS</string>
+    <string name="d4rk_menu_key_config_center" translatable="false">top_level_config_center</string>
+    <string name="config_center_title" translatable="false">D4RK OS</string>
+    <string name="d4rk_gestures_title">Gestures</string>
+    <string name="d4rk_gestures_summary">Device-supported gestures</string>
+    <string name="d4rk_system_navigation_title">System navigation</string>
+    <string name="d4rk_battery_percentage_title">Battery percentage</string>
+    <string name="d4rk_smart_pixels_enable_title">Enable Smart Pixels</string>
+    <string name="d4rk_disabled">Disabled</string>
+    <string name="statusbar_summary">Clock seconds, battery percentage, double tap to sleep</string>
+    <string name="buttons_summary">Navigation, hardware wake and call controls, backlight</string>
+    <string name="lockscreen_summary">Charging information</string>
+    <string name="misc_summary">Screenshots and wake on charging</string>
+    <string name="notifications_summary">Heads up and notification sound behavior</string>
+    <string name="battery_saving_summary">Smart Pixels</string>
+    <string name="screen_summary">Per-app fullscreen around the display cutout</string>
+    <string name="media_summary">Adaptive playback</string>
+</resources>

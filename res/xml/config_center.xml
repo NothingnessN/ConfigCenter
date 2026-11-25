@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 Havoc-OS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/config_center_title">
+
+    <Preference
+        android:key="statusbar_category"
+        android:title="@string/statusbar_title"
+        android:summary="@string/statusbar_summary"
+        android:fragment="com.d4rk.config.center.fragments.StatusBar"
+        android:icon="@drawable/ic_settings_statusbar" />
+
+    <Preference
+        android:key="lockscreen_category"
+        android:title="@string/lockscreen_title"
+        android:summary="@string/lockscreen_summary"
+        android:fragment="com.d4rk.config.center.fragments.LockScreen"
+        android:icon="@drawable/ic_settings_lockscreen" />
+
+    <Preference
+        android:key="buttons_category"
+        android:title="@string/buttons_title"
+        android:summary="@string/buttons_summary"
+        android:fragment="com.d4rk.config.center.fragments.Buttons"
+        android:icon="@drawable/ic_settings_buttons" />
+
+    <Preference
+        android:key="gesture_settings"
+        android:title="@string/d4rk_gestures_title"
+        android:summary="@string/d4rk_gestures_summary"
+        android:fragment="com.android.settings.gestures.GestureSettings"
+        android:icon="@drawable/d4rk_ic_settings_gestures" />
+
+    <Preference
+        android:key="notifications_category"
+        android:title="@string/d4rk_notifications_title"
+        android:summary="@string/notifications_summary"
+        android:fragment="com.d4rk.config.center.fragments.Notifications"
+        android:icon="@drawable/ic_settings_notifications" />
+
+    <Preference
+        android:key="battery_category"
+        android:title="@string/battery_title"
+        android:summary="@string/battery_saving_summary"
+        android:fragment="com.d4rk.config.center.fragments.SmartPixels"
+        android:icon="@drawable/ic_settings_batterysave" />
+
+    <Preference
+        android:key="screen_category"
+        android:title="@string/screen_title"
+        android:summary="@string/screen_summary"
+        android:fragment="com.d4rk.config.center.fragments.Screen"
+        android:icon="@drawable/ic_settings_screen" />
+
+    <Preference
+        android:key="media_category"
+        android:title="@string/media_title"
+        android:summary="@string/media_summary"
+        android:fragment="com.d4rk.config.center.fragments.Media"
+        android:icon="@drawable/ic_settings_media" />
+
+    <Preference
+        android:key="misc_category"
+        android:title="@string/misc_title"
+        android:summary="@string/misc_summary"
+        android:fragment="com.d4rk.config.center.fragments.Misc"
+        android:icon="@drawable/ic_settings_misc" />
+
+    <Preference
+        android:key="about_category"
+        android:title="@string/about_title"
+        android:summary="@string/about_summary"
+        android:fragment="com.d4rk.config.center.fragments.About"
+        android:icon="@drawable/d4rk_ic_settings_about" />
+</PreferenceScreen>

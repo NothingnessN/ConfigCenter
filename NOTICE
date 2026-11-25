@@ -1,0 +1,12 @@
+D4RK OS ConfigCenter
+
+NothingnessN — Creator and developer
+1yigito — Developer; wallpapers and designs
+
+This source bundle adapts Havoc-OS ConfigCenter for a Settings-hosted Android 13
+interface. It includes work from the Android Open Source Project, CyanogenMod,
+LineageOS, Havoc-OS, and PixelExperience. Original copyright and Apache License
+notices are retained in the adapted source and resource files.
+
+D4RK logo artwork was supplied by the project owner. The About-phone logo patch
+retains the original Settings drawable's copyright and license header.

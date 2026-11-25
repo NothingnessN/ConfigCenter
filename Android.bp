@@ -1,0 +1,27 @@
+// SPDX-License-Identifier: Apache-2.0
+// ConfigCenter is compiled in Settings-core, never as a standalone application.
+package {
+    default_applicable_licenses: ["D4RKConfigCenter_license"],
+}
+
+license {
+    name: "D4RKConfigCenter_license",
+    visibility: [":__subpackages__"],
+    license_kinds: ["SPDX-license-identifier-Apache-2.0"],
+    license_text: ["LICENSE", "NOTICE"],
+}
+
+filegroup {
+    name: "D4RKConfigCenter-srcs",
+    srcs: ["src/**/*.java"],
+    visibility: ["//visibility:public"],
+}
+
+// A resource-only static library avoids a Java dependency cycle with Settings.
+android_library {
+    name: "D4RKConfigCenter-resources",
+    platform_apis: true,
+    manifest: "AndroidManifest.xml",
+    resource_dirs: ["res"],
+    visibility: ["//visibility:public"],
+}
