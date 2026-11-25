@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 Havoc-OS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/screen_title" >
+
+    <PreferenceCategory
+        android:key="cutout_category"
+        android:title="@string/cutout_category_title">
+
+        <com.havoc.support.preferences.SystemSettingListPreference
+            android:key="display_cutout_mode"
+            android:title="@string/display_cutout_mode_title"
+            android:entries="@array/display_cutout_mode_entries"
+            android:entryValues="@array/display_cutout_mode_values"
+            android:defaultValue="0" />
+
+        <com.havoc.support.preferences.SystemSettingSwitchPreference
+            android:key="stock_statusbar_in_hide"
+            android:title="@string/stock_statusbar_in_hide"
+            android:summary="@string/stock_statusbar_in_hide_summary"
+            android:defaultValue="true" />
+
+        <com.havoc.support.preferences.SystemSettingSwitchPreference
+            android:key="display_hide_notch"
+            android:title="@string/display_hide_notch_title"
+            android:summary="@string/display_hide_notch_summary"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="display_cutout_force_fullscreen_settings"
+            android:title="@string/display_cutout_force_fullscreen_title"
+            android:summary="@string/display_cutout_force_fullscreen_summary"
+            android:fragment="com.havoc.config.center.fragments.DisplayCutoutForceFullscreenSettings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="corners_category"
+        android:title="@string/corners_category_title">
+
+        <com.havoc.support.preferences.SecureSettingSwitchPreference
+            android:key="sysui_rounded_fwvals"
+            android:title="@string/corner_fwvals_title"
+            android:summary="@string/corner_fwvals_summary"
+            android:defaultValue="true"
+            android:disableDependentsState="true" />
+
+        <com.havoc.support.preferences.CustomSeekBarPreference
+            android:key="sysui_rounded_size"
+            android:title="@string/corner_radius"
+            android:max="60"
+            settings:min="0"
+            settings:units="dp"
+            android:persistent="false"
+            android:dependency="sysui_rounded_fwvals" />
+    </PreferenceCategory>
+</PreferenceScreen>

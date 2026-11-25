@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (C) 2018-21 Havoc-OS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App Title -->
+    <string name="config_center_title">Configuration Center</string>
+
+    <!-- Preferences -->
+    <string name="about_title">About</string>
+    <string name="about_summary">Learn more about Havoc-OS</string>
+    <string name="buttons_title">Buttons &amp; Navigation</string>
+    <string name="buttons_summary">Hardware keys, Navigation bar</string>
+    <string name="gestures_title">Gestures</string>
+    <string name="gestures_summary">Power menu, quick torch, swipe to screenshot</string>
+    <string name="lockscreen_title">Lock Screen</string>
+    <string name="lockscreen_summary">Double tap to sleep, charging info</string>
+    <string name="misc_title">Miscellaneous</string>
+    <string name="misc_summary">Gaming mode, charging animation</string>
+    <string name="navigation_title">Navigation</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_summary">Edge lighting, heads up</string>
+    <string name="quicksettings_title">Quick Settings</string>
+    <string name="quicksettings_summary">Tile layout, footer icons</string>
+    <string name="statusbar_title">Status Bar</string>
+    <string name="statusbar_summary">Clock, network speed, status icons</string>
+    <string name="battery_title">Battery Saving</string>
+    <string name="battery_saving_summary">Sleep mode, block sensors</string>
+    <string name="ambient_display_custom_title">Ambient Display</string>
+    <string name="ambient_display_custom_summary">Always on, music ticker, gestures</string>
+    <string name="screen_title">Screen</string>
+    <string name="screen_summary">Rounded corners, display cutout</string>
+    <string name="media_title">Media</string>
+    <string name="media_summary">Adaptive playback, music visualizer</string>
+
+    <!-- About -->
+    <string name="team_category_title">Team</string>
+    <string name="havoc_developers_skulshady" translatable="false">• Founder \n• Core Developer \n• UI/UX Designer\n• Maintainer</string>
+    <string name="havoc_developers_sukeerat" translatable="false">• DevOps &amp; Scaling Engineer \n• Developer \n• Maintainer</string>
+    <string name="havoc_announcements_title">Announcements</string>
+    <string name="havoc_announcements_summary">Official announcements channel</string>
+    <string name="havoc_telegram_title">Telegram</string>
+    <string name="havoc_telegram_summary">Support group for Official builds</string>
+    <string name="havoc_gerrit_title">Gerrit</string>
+    <string name="havoc_gerrit_summary">Code review for Havoc-OS</string>
+    <string name="havoc_source_title">Github</string>
+    <string name="havoc_source_summary">Havoc-OS source code</string>
+    <string name="havoc_donate">Donate</string>
+    <string name="havoc_donate_summary">Show your support to Havoc-OS Team</string>
+    <string name="havoc_links">Links</string>
+    <string name="website_title">Website</string>
+    <string name="website_title_summary">Download Havoc-OS for your device</string>
+
+    <!-- Lockscreen Categories -->
+    <string name="interface_title">Interface</string>
+
+    <!-- Lockscreen battery info indicator -->
+    <string name="lockscreen_battery_info_title">Charging info</string>
+    <string name="lockscreen_battery_info_summary">Show additional battery info while the device is charging</string>
+
+    <!-- ANBI -->
+    <string name="anbi_title">Accidental touch</string>
+    <string name="anbi_summary">Prevent interaction with the hardware buttons while the screen is being used</string>
+
+    <string name="volume_title">Volume Buttons</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Wake device</string>
+    <string name="volume_rocker_wake_summary">Press volume keys to wake your device</string>
+
+    <!-- Volume rocker cursor control -->
+    <string name="volume_key_cursor_control_title">Keyboard cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Up/Down - Cursor Left/Right</string>
+    <string name="volume_key_cursor_control_on_reverse">Up/Down - Cursor Right/Left</string>
+
+    <!-- Wake on charge -->
+    <string name="charge_title">Charging</string>
+    <string name="wakeup_when_plugged_unplugged_title">Wake device</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wake up the device when the charger is plugged or unplugged</string>
+
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap on the lock screen to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Double tap to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
+
+    <!-- Heads up -->
+    <string name="notification_stat">Status Bar</string>
+    <string name="heads_up_notifications">Heads Up</string>
+    <string name="heads_up_notifications_summary">Peeking status bar notifications</string>
+    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_stoplist_summary">Disable heads up in these applications</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="heads_up_blacklist_summary">Disable heads up for these applications</string>
+
+    <!-- Quick settings tiles columns and rows config -->
+    <string name="qs_tiles_category">Tiles</string>
+    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
+    <string name="qs_columns_landscape_title">Columns (Landscape)</string>
+    <string name="qs_tile_title_visibility_title">Tile labels</string>
+    <string name="qs_tile_title_visibility_summary">Show the title below the QS tile</string>
+    <string name="qs_rows_portrait_title">Rows (Portrait)</string>
+    <string name="qs_rows_landscape_title">Rows (Landscape)</string>
+
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Turn off selective pixels to reduce power consumption</string>
+    <string name="smart_pixels_percent">Pixels disabled</string>
+    <string name="smart_pixels_shift">Burn-in protection interval</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="ls_fingerprint">Fingerprint</string>
+
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_title">Volume steps</string>
+    <string name="volume_steps_summary">Set custom volume steps for sounds</string>
+    <string name="volume_steps_alarm_title">Alarm</string>
+    <string name="volume_steps_dtmf_title">DTMF</string>
+    <string name="volume_steps_music_title">Media</string>
+    <string name="volume_steps_notification_title">Notification</string>
+    <string name="volume_steps_ring_title">Ringer</string>
+    <string name="volume_steps_system_title">System</string>
+    <string name="volume_steps_voice_call_title">Voice Call</string>
+    <string name="volume_steps_reset">Default</string>
+
+    <string name="statusbar_items_category">Icons</string>
+
+    <!-- Volume swap buttons -->
+    <string name="swap_volume_buttons_title">Swap keys</string>
+    <string name="swap_volume_buttons_summary">Invert volume keys when the device is rotated</string>
+
+    <!-- Lock screen cover art -->
+    <string name="media_art_title">Media artwork</string>
+    <string name="media_art_summary">Show the album art of the playing media</string>
+
+    <!-- Lock screen media blur -->
+    <string name="lockscreen_media_blur_title">Media artwork blur</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="statusbar_ntraffic">Network</string>
+    <string name="network_traffic_state_title">Network speed</string>
+    <string name="network_traffic_state_summary">Show network speed in the status bar</string>
+    <string name="network_traffic_location_title">Location</string>
+    <string name="network_traffic_statusbar">Status Bar</string>
+    <string name="network_traffic_qs_header">QS header</string>
+    <string name="network_traffic_mode_title">Mode</string>
+    <string name="network_traffic_dynamic">Dynamic</string>
+    <string name="network_traffic_download">Download</string>
+    <string name="network_traffic_upload">Upload</string>
+    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Status icons</string>
+    <string name="statusbar_items_summary">Configure the visibility of icons in the status bar</string>
+
+    <!-- Navbar options -->
+    <string name="nav_bar_layout">Layout</string>
+    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_compact">Compact</string>
+    <string name="navbar_layout_leftleaning">Left-leaning</string>
+    <string name="navbar_layout_rightleaning">Right-leaning</string>
+    <string name="navbar_invert_layout_title">Swap keys</string>
+    <string name="navbar_invert_layout_summary">Invert back and recents navbar buttons</string>
+
+    <!-- Battery light -->
+    <string name="default_string">Default</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">Auto-brightness</string>
+    <string name="brightness_icon_summary">Show a toggle for adaptive brightness</string>
+
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Show animation</string>
+    <string name="charging_animation_summary">Show an animation when the device is plugged in</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
+    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_1min">1 minute</string>
+    <string name="heads_up_snooze_5min">5 minutes</string>
+    <string name="heads_up_snooze_10min">10 minutes</string>
+    <string name="heads_up_snooze_15min">15 minutes</string>
+    <string name="heads_up_snooze_20min">20 minutes</string>
+
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Priority only</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages and alarms</string>
+
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Status Bar</string>
+    <string name="lockscreen_show_status_bar_summary">Show the status bar on the lock screen</string>
+
+    <!-- Show QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Quick Settings</string>
+    <string name="show_qs_on_secure_keyguard_summary">Allow to pull down on status bar to open QS on a secure lock screen</string>
+
+    <!-- Battery -->
+    <string name="battery_category_title">Battery</string>
+    <string name="status_bar_battery_style_title">Icon style</string>
+    <string name="status_bar_battery_style_icon_portrait">Portrait</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="battery_percentage_title">Percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Quick pulldown</string>
+    <string name="quick_pulldown_off">Disabled</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
+
+    <!-- Volume key answer -->
+    <string name="volume_answer_call_title">Answer call</string>
+    <string name="volume_answer_call_summary">Answer incoming calls by pressing the volume keys</string>
+
+    <!-- Home key answer -->
+    <string name="home_answer_call_title">Answer call</string>
+    <string name="home_answer_call_summary">Answer incoming calls by pressing the home button</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Alerts</string>
+    <string name="notification_sound_vib_screen_on_summary">Ring and vibrate for notifications when the screen is on</string>
+
+    <!-- Statusbar Clock -->
+    <string name="status_bar_clock_title">Clock</string>
+    <string name="status_bar_clock_summary">Show the current time in the status bar</string>
+    <string name="status_bar_clock_style_title">Position</string>
+    <string name="status_bar_clock_style_right">Right</string>
+    <string name="status_bar_clock_style_center">Center</string>
+    <string name="status_bar_clock_style_left">Left</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Small</string>
+    <string name="status_bar_am_pm_hidden">Hidden</string>
+    <string name="clock_seconds_display">Show seconds</string>
+    <string name="clock_seconds_display_summary">Show seconds in the clock</string>
+    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock periodically in the status bar</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Carrier label</string>
+    <string name="carrier_label_settings_summary">Show the connected network name in the status bar</string>
+    <string name="custom_carrier_label_title">Custom text</string>
+    <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
+    <string name="custom_carrier_label_notset">Custom label is currently not set</string>
+    <string name="show_carrier_title">Location</string>
+    <string name="show_carrier_keyguard">Lock Screen</string>
+    <string name="show_carrier_statusbar">Status Bar</string>
+    <string name="show_carrier_both">Lock Screen &amp; Status Bar</string>
+    <string name="show_carrier_enabled">Both</string>
+
+    <!-- Statusbar logo -->
+    <string name="status_bar_logo_title">Logo</string>
+    <string name="status_bar_logo_summary">Show a custom logo in the status bar</string>
+    <string name="status_bar_logo_position">Position</string>
+    <string name="status_bar_logo_position_right">Right</string>
+    <string name="status_bar_logo_position_left">Left</string>
+    <string name="status_bar_logo_style">Style</string>
+    <string name="status_bar_logo_style_havoc">Havoc-OS</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">Blackberry</string>
+    <string name="status_bar_logo_style_blogger">Blogger</string>
+    <string name="status_bar_logo_style_bomb">Bomb</string>
+    <string name="status_bar_logo_style_brain">Brain</string>
+    <string name="status_bar_logo_style_cake">Cake</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_death_star">Death Star</string>
+    <string name="status_bar_logo_style_emoticon">Emoji</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoji (Cool)</string>
+    <string name="status_bar_logo_style_emoticon_dead">Emoji (Dead)</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoji (Devil)</string>
+    <string name="status_bar_logo_style_emoticon_happy">Emoji (Happy)</string>
+    <string name="status_bar_logo_style_emoticon_neutral">Emoji (Neutral)</string>
+    <string name="status_bar_logo_style_emoticon_poop">Emoji (Poop)</string>
+    <string name="status_bar_logo_style_emoticon_sad">Emoji (Sad)</string>
+    <string name="status_bar_logo_style_emoticon_tongue">Emoji (Tongue)</string>
+    <string name="status_bar_logo_style_fire">Fire</string>
+    <string name="status_bar_logo_style_flask">Flask</string>
+    <string name="status_bar_logo_style_gender_male">Gender (Male)</string>
+    <string name="status_bar_logo_style_gender_female">Gender (Female)</string>
+    <string name="status_bar_logo_style_gender_male_female">Gender (Male &amp; Female)</string>
+    <string name="status_bar_logo_style_ghost">Ghost</string>
+    <string name="status_bar_logo_style_google">Google</string>
+    <string name="status_bar_logo_style_guitar_acoustic">Guitar (Acoustic)</string>
+    <string name="status_bar_logo_style_guitar_electric">Guitar (Electric)</string>
+    <string name="status_bar_logo_style_heart">Heart</string>
+    <string name="status_bar_logo_style_human_male">Human (Male)</string>
+    <string name="status_bar_logo_style_human_female">Human (Female)</string>
+    <string name="status_bar_logo_style_human_male_female">Human (Male &amp; Female)</string>
+    <string name="status_bar_logo_style_incognito">Incognito</string>
+    <string name="status_bar_logo_style_ios">iOS</string>
+    <string name="status_bar_logo_style_linux">Linux</string>
+    <string name="status_bar_logo_style_lock">Lock</string>
+    <string name="status_bar_logo_style_music_note">Music Note</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_pac_man">Pac-Man</string>
+    <string name="status_bar_logo_style_peace">Peace</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_skull">Skull</string>
+    <string name="status_bar_logo_style_smoking">Smoking</string>
+    <string name="status_bar_logo_style_wallet">Wallet</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">XBOX</string>
+    <string name="status_bar_logo_style_xbox_controller">XBOX Controller</string>
+    <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
+
+    <!-- QS background opacity -->
+    <string name="qs_theme_category">Style</string>
+
+    <!-- Rounded corners -->
+    <string name="corners_category_title">Corners</string>
+    <string name="corner_radius">Rounded corner radius</string>
+    <string name="corner_fwvals_title">Use framework values</string>
+    <string name="corner_fwvals_summary">Use the default values for your device</string>
+
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
+
+    <!-- Swap navigation keys -->
+    <string name="swap_navigation_keys_title">Swap keys</string>
+    <string name="swap_navigation_keys_title_summary">Invert back and recents hardware keys</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="notification_screen_title">Screen</string>
+    <string name="pulse_ambient_light_title">Edge lighting</string>
+    <string name="pulse_ambient_light_summary">Light up the edges of the screen when a notification arrives</string>
+    <string name="pulse_ambient_light_color_title">Custom color</string>
+    <string name="pulse_ambient_light_color_mode_title">Color</string>
+    <string name="pulse_ambient_light_color_mode_notification">Automatic (Notification Based)</string>
+    <string name="pulse_ambient_light_color_mode_wall">Automatic (Wallpaper Based)</string>
+    <string name="pulse_ambient_light_color_mode_accent">Accent</string>
+    <string name="pulse_ambient_light_color_mode_custom">Custom</string>
+    <string name="pulse_ambient_light_duration_title">Duration</string>
+    <string name="pulse_ambient_light_repeat_count_title">Repeat count</string>
+    <string name="pulse_ambient_light_show_always_title">Show on Doze</string>
+    <string name="pulse_ambient_light_show_always_summary">Show edge lights for all doze events</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Repeat mode</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Restart</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
+    <string name="pulse_ambient_light_layout_title">Style</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
+    <string name="ambient_notification_light_enabled_title">Show on AOD</string>
+    <string name="ambient_notification_light_enabled_summary">Show edge lights on Always On Display</string>
+    <string name="ambient_notification_light_hide_aod_title">Hide AOD content</string>
+    <string name="ambient_notification_light_hide_aod_summary">Hide AOD content when edge lights are showing</string>
+    <string name="ambient_notification_light_timeout_title">Timeout</string>
+    <string name="ambient_notification_light_timeout_forever">Forever</string>
+    <string name="ambient_notification_light_timeout_half_minute">30 seconds</string>
+    <string name="ambient_notification_light_timeout_minute">1 minute</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
+
+    <!-- QS footer icons -->
+    <string name="qs_footer_title">Footer</string>
+    <string name="qs_footer_settings_title">Settings</string>
+    <string name="qs_footer_settings_summary">Show a shortcut to launch Settings</string>
+    <string name="qs_footer_services_title">Running Services</string>
+    <string name="qs_footer_services_summary">Show a shortcut to launch Running Services</string>
+    <string name="qs_footer_edit_title">Edit</string>
+    <string name="qs_footer_edit_summary">Show a button to edit the QS tiles</string>
+
+    <!-- Blink flashlight for incoming calls -->
+    <string name="notification_flash_title">Flashlight</string>
+    <string name="flashlight_on_call_title">Blink for incoming call</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
+    <string name="flashlight_on_call_not_dnd">When ringer is on</string>
+    <string name="flashlight_on_call_no_ringer">When ringer is silent</string>
+    <string name="flashlight_on_call_dnd">When DND is active</string>
+    <string name="flashlight_on_call_always">Always</string>
+    <string name="flashlight_on_call_rate_title">Blink rate</string>
+
+    <!-- Screenshot -->
+    <string name="screenshot_type_title">Screenshot type</string>
+    <string name="screenshot_type_fullscreen">Full</string>
+    <string name="screenshot_type_partial">Partial</string>
+
+    <!-- HW keys -->
+    <string name="hardware_keys_title">Hardware</string>
+    <string name="hardware_keys_disable_title">Hardware keys</string>
+    <string name="hardware_keys_disable_summary">Use the device hardware keys for navigation</string>
+
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Show on-screen navigation keys</string>
+    <string name="navigation_bar_arrow_keys_title">Arrow keys</string>
+    <string name="navigation_bar_arrow_keys_summary">Show left &amp; right arrows to control the cursor while typing</string>
+
+    <!-- FOD animation -->
+    <string name="fod_recognizing_animation_title">Animate on press</string>
+    <string name="fod_recognizing_animation_summary">Show an animation while reading your fingerprint</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_title">Adaptive playback</string>
+    <string name="adaptive_playback_enabled_title">Auto Pause/Resume media</string>
+    <string name="adaptive_playback_enabled_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
+    <string name="adaptive_playback_timeout_title">Playback timeout</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Always On</string>
+    <string name="screen_off_fod_summary">Allow to unlock the device using fingerprint when the screen is off (Increased battery usage)</string>
+    <string name="screen_off_fod_icon_title">FOD icon</string>
+    <string name="screen_off_fod_icon_summary">Show the fingerprint icon when the screen is off</string>
+
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Show IME button space below keyboard</string>
+
+    <!-- Display cutout -->
+    <string name="cutout_category_title">Display Cutout</string>
+    <string name="display_cutout_mode_title">Cutout mode</string>
+    <string name="display_cutout_mode_normal">Normal</string>
+    <string name="display_cutout_mode_immerse">Immerse</string>
+    <string name="display_cutout_mode_hide">Hide</string>
+    <string name="stock_statusbar_in_hide">Stock status bar height</string>
+    <string name="stock_statusbar_in_hide_summary">Use default status bar height in Hide mode</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Smart pulldown</string>
+    <string name="smart_pulldown_off">Disabled</string>
+    <string name="smart_pulldown_none">No notifications</string>
+    <string name="smart_pulldown_dismissable">No dismissable notifications</string>
+    <string name="smart_pulldown_ongoing">No ongoing notifications</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Block sensors</string>
+    <string name="sensor_block_summary">Block access to certain sensors for selected apps</string>
+
+    <!-- Battery Bar -->
+    <string name="battery_bar_title">Battery bar</string>
+    <string name="battery_bar_summary">Show a battery level progress bar</string>
+    <string name="battery_bar_location_title">Location</string>
+    <string name="battery_bar_location_statusbar_top">Status Bar (Top)</string>
+    <string name="battery_bar_location_statusbar_bottom">Status Bar (Bottom)</string>
+    <string name="battery_bar_location_navbar_top">Navigation bar (Top)</string>
+    <string name="battery_bar_location_navbar_bottom">Navigation bar (Bottom)</string>
+    <string name="battery_bar_color_title">Color</string>
+    <string name="light_statusbar_title">Light Status Bar</string>
+    <string name="dark_statusbar_title">Dark Status Bar</string>
+    <string name="battery_bar_color_summary">Color range to be used for the bar</string>
+    <string name="battery_bar_charging_color_title">Charging color</string>
+    <string name="battery_bar_thickness_title">Thickness</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_animate_summary">Animate the battery bar when the device is plugged in</string>
+    <string name="battery_bar_style_title">Alignment</string>
+    <string name="battery_bar_style_regular">Regular</string>
+    <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
+    <string name="battery_bar_style_reversed">Reversed</string>
+    <string name="battery_bar_use_charging_color_title">Custom charging color</string>
+    <string name="battery_bar_use_charging_color_summary">Use a custom color when the device is plugged in</string>
+    <string name="battery_blend_start">Empty</string>
+    <string name="battery_blend_end">Full</string>
+    <string name="battery_blend_between">Between</string>
+
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_screen_summary">Ticker style status bar notifications</string>
+    <string name="ticker_mode_title">Show ticker for</string>
+    <string name="ticker_notifications">Notifications</string>
+    <string name="ticker_media">Notifications and music</string>
+    <string name="ticker_animation_mode_title">Animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Duration</string>
+
+    <!-- Headset ringtone audio focus -->
+    <string name="ringtone_focus_mode_title">Ringtone focus mode</string>
+    <string name="ringtone_focus_mode_dynamic">Headset (If media is playing)</string>
+    <string name="ringtone_focus_mode_stock">Speaker and headset</string>
+
+    <!-- QS tile tint -->
+    <string name="qs_tile_accent_tint_title">Tint tiles</string>
+    <string name="qs_tile_accent_tint_summary">Tint QS tile background with accent color</string>
+
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Notification count</string>
+    <string name="status_bar_notif_count_summary">Show the number of pending notifications</string>
+
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse does not work with some audio sources when listening on device speaker</string>
+    <string name="pulse_settings">Music visualizer</string>
+    <string name="pulse_settings_summary">Show a synchronized animation while playing media</string>
+    <string name="pulse_render_mode_title">Render mode</string>
+    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
+    <string name="pulse_render_mode_solid_lines">Solid lines</string>
+    <string name="pulse_color_mode">Color mode</string>
+    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_color_custom">Custom</string>
+    <string name="pulse_color_lava_lamp">Lava lamp</string>
+    <string name="pulse_color_auto">Automatic (Album art)</string>
+    <string name="pulse_color_chooser">Custom color</string>
+    <string name="smoothing_enabled_title">Animation smoothing</string>
+    <string name="smoothing_enabled_summary">Animate each pulse bar more smoothly</string>
+    <string name="pulse_legacy_mode_advanced_category">Fading blocks</string>
+    <string name="pulse_custom_fudge_factor">Sanity level</string>
+    <string name="lavamp_speed_title">Lava lamp speed</string>
+    <string name="pulse_solid_units_count">Lines count</string>
+    <string name="pulse_solid_units_opacity">Lines opacity</string>
+    <string name="pulse_solid_dimen_category">Solid lines</string>
+    <string name="pulse_custom_dimen">Bar width</string>
+    <string name="pulse_custom_div">Bar spacing</string>
+    <string name="pulse_filled_block_size">Block size</string>
+    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_location_title">Location</string>
+    <string name="pulse_location_lockscreen">Lock Screen</string>
+    <string name="pulse_location_navbar">Navbar</string>
+    <string name="pulse_location_both">Both</string>
+    <string name="pulse_location_both_summary">Lock Screen and Navbar</string>
+    <string name="ambient_visualizer_title">Show on Ambient Display</string>
+    <string name="ambient_visualizer_summary">Show the visualizer on ambient display</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
+    <string name="cutout_force_fullscreen_no_apps">No apps</string>
+
+    <!-- Aggressive battery -->
+    <string name="idle_title">Idle</string>
+
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Notification headers</string>
+    <string name="notification_headers_summary">Group notifications under headers in the notification shade</string>
+
+    <!-- Don't touch headsup -->
+    <string name="dont_touch_headsup_title">Disable app launch</string>
+    <string name="dont_touch_headsup_summary">Avoid launching the app when tapping the heads up notification</string>
+
+    <!-- Generic stuff used everywhere -->
+    <string name="reset">Reset</string>
+
+    <!-- Buttons -->
+    <string name="hardware_keys_home_key_title">Home button</string>
+    <string name="hardware_keys_back_key_title">Back button</string>
+    <string name="hardware_keys_menu_key_title">Menu button</string>
+    <string name="hardware_keys_assist_key_title">Search button</string>
+    <string name="hardware_keys_appswitch_key_title">Recents button</string>
+    <string name="hardware_keys_camera_key_title">Camera button</string>
+    <string name="hardware_keys_short_press_title">Short press action</string>
+    <string name="hardware_keys_long_press_title">Long press action</string>
+    <string name="hardware_keys_double_tap_title">Double tap action</string>
+    <string name="hardware_keys_action_nothing">No action</string>
+    <string name="hardware_keys_action_menu">Open/close menu</string>
+    <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
+    <string name="hardware_keys_action_search">Search assistant</string>
+    <string name="hardware_keys_action_voice_search">Voice search</string>
+    <string name="hardware_keys_action_launch_camera">Launch camera</string>
+    <string name="hardware_keys_action_sleep">Turn screen off</string>
+    <string name="hardware_keys_action_split_screen">Split screen</string>
+    <string name="hardware_keys_action_close_app">Kill app</string>
+    <string name="hardware_keys_action_torch">Torch</string>
+    <string name="hardware_keys_action_screenshot">Screenshot</string>
+    <string name="hardware_keys_action_volume_panel">Toggle volume panel</string>
+    <string name="hardware_keys_action_clear_all_notifications">Clear all notifications</string>
+    <string name="hardware_keys_action_notifications_panel">Toggle notifications panel</string>
+    <string name="hardware_keys_action_toggle_qs_panel">Toggle QS panel</string>
+    <string name="hardware_keys_action_ringer_modes">Ringer modes</string>
+    <string name="button_wake_title">Wake device</string>
+    <string name="button_wake_summary">Wake device by pressing the button</string>
+    <string name="camera_sleep_on_release_title">Screen peek</string>
+    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
+    <string name="camera_launch_title">Launch camera</string>
+    <string name="camera_launch_summary">A long press and release will launch camera</string>
+
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Button backlight</string>
+    <string name="button_backlight_enabled">Illuminate buttons</string>
+    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
+    <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
+    <string name="button_backlight_seekbar_title">Button brightness</string>
+    <string name="keyboard_backlight_seekbar_title">Keyboard brightness</string>
+    <string name="backlight_timeout_title">Illumination timeout</string>
+    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
+    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Enabled</string>
+
+    <!-- Lockscreen blur -->
+    <string name="lockscreen_blur_title">Background blur</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_schedule_sunset">Sunset</string>
+    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
+    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="sleep_mode_aod_toggle_title">Turn off AOD</string>
+    <string name="sleep_mode_aod_toggle_summary">Disable Always on display when Sleep mode is turned on</string>
+    <string name="sleep_mode_aggressive_toggle_title">Turn on Aggressive Battery</string>
+    <string name="sleep_mode_aggressive_toggle_summary">Enable Aggressive idle and standby when Sleep mode is turned on</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_ringer_title">Ringer mode</string>
+    <string name="sleep_mode_ringer_off_title">Do not change</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="sleep_mode_ringer_silent_title">Silent</string>
+
+    <!-- Anti-falsing -->
+    <string name="keyguard_anti_falsing_title">Prevent accidental swipe</string>
+    <string name="keyguard_anti_falsing_summary">Avoid unintentional swipe up for PIN/Pattern/Password</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Gaming mode</string>
+    <string name="gaming_mode_summary">Enhance your gaming experience</string>
+    <string name="gaming_mode_apps_title">Game list</string>
+    <string name="gaming_mode_apps_summary">Choose the apps you want to automatically turn on game mode for</string>
+    <string name="gaming_mode_dynamic_add_title">Dynamic mode</string>
+    <string name="gaming_mode_dynamic_add_summary">Try detecting and adding games automatically</string>
+    <string name="gaming_mode_overlay">Overlay</string>
+    <string name="gaming_mode_use_menu_overlay_title">Show overlay</string>
+    <string name="gaming_mode_use_menu_overlay_summary">Show floating button and overlay when in game mode</string>
+    <string name="gaming_mode_quick_start_apps_title">Quick launch apps</string>
+    <string name="gaming_mode_quick_start_apps_summary">Choose the apps you want to quick launch when in game mode</string>
+    <string name="gaming_mode_menu_opacity_title">Overlay opacity</string>
+    <string name="gaming_mode_performance">Performance</string>
+    <string name="gaming_mode_use_game_driver_title">Game driver</string>
+    <string name="gaming_mode_use_game_driver_summary">Use specific drivers for games</string>
+    <string name="gaming_mode_change_performance_title">Performance tuning</string>
+    <string name="gaming_mode_change_performance_summary">Adjust performance level when in game mode</string>
+    <string name="gaming_mode_performance_title">Performance level</string>
+    <string name="gaming_mode_notifications">Ringer &amp; Notification</string>
+    <string name="gaming_mode_notification_danmaku_title">Notification ticker</string>
+    <string name="gaming_mode_notification_danmaku_summary">Show the notification content in the form of a ticker when in game mode</string>
+    <string name="gaming_mode_disable_notification_alert_title">Turn off heads up</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Block all notifications except incoming calls and alarms when in game mode</string>
+    <string name="gaming_mode_disable_ringtone_title">Turn off ringer</string>
+    <string name="gaming_mode_disable_ringtone_summary">Set the ringer to silent for incoming calls and notifications when in game mode</string>
+    <string name="gaming_mode_auto_answer_call_title">Answer calls automatically</string>
+    <string name="gaming_mode_auto_answer_call_summary">Automatically answer calls when in game mode and no headphones are connected</string>
+    <string name="gaming_mode_navigation">Navigation</string>
+    <string name="gaming_mode_disable_hw_keys_title">Turn off hardware buttons</string>
+    <string name="gaming_mode_disable_hw_keys_summary">Disable touch for hardware buttons when in game mode</string>
+    <string name="gaming_mode_disable_gesture_title">Turn off navigation gestures</string>
+    <string name="gaming_mode_disable_gesture_summary">Disable navigation gestures when in game mode</string>
+    <string name="gaming_mode_brightness">Brightness</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Turn off automatic brightness</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Lock the screen brightness when in game mode</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Dynamically filter notifications</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Automatically filter low priority notifications</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Text size (Horizontal)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Text size (Vertical)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Ticker speed (Horizontal)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Ticker speed (Vertical)</string>
+    <string name="gaming_mode_danmaku_blacklist_title">Blacklist</string>
+    <string name="gaming_mode_danmaku_blacklist_summary">Disable ticker for these applications</string>
+
+    <!-- Display cutout -->
+    <string name="display_hide_notch_title">Hide display cutout</string>
+    <string name="display_hide_notch_summary">Disable black fill-in for display cutout</string>
+
+    <!-- Alert Slider -->
+    <string name="alert_slider_title">Alert Slider</string>
+    <string name="alert_slider_mute_media_title">Mute media</string>
+    <string name="alert_slider_mute_media_summary">Mute media volume when the alert slider is set to silent</string>
+
+    <!-- Background process killer -->
+    <string name="background_process_killer_title">Kill background processes</string>
+    <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
+
+</resources>

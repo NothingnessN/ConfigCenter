@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="config_center_title">Centrum Konfiguracji</string>
+    <!-- Preferences -->
+    <string name="about_title">Informacje o oprogramowaniu</string>
+    <string name="about_summary">Dowiedz się więcej na temat Havoc-OS</string>
+    <string name="buttons_summary">Przyciski sprzętowe, pasek nawigacji</string>
+    <string name="gestures_title">Gesty</string>
+    <string name="gestures_summary">Przejdź do aparatu, przesuń palcem aby zrobić zrzut ekranu</string>
+    <string name="lockscreen_title">Ekran blokady</string>
+    <string name="misc_title">Inne</string>
+    <string name="misc_summary">Tryb gry, animacja ładowania</string>
+    <string name="navigation_title">Nawigacja</string>
+    <string name="notifications_title">Powiadomienia</string>
+    <string name="notifications_summary">Podświetlanie krawędziowe, heads-up</string>
+    <string name="quicksettings_title">Szybkie ustawienia</string>
+    <string name="quicksettings_summary">Układ kafelków, obraz nagłówka, rozmycie tła</string>
+    <string name="statusbar_title">Pasek stanu</string>
+    <string name="statusbar_summary">Zegar, logo, ikony statusu</string>
+    <string name="battery_title">Oszczędzanie baterii</string>
+    <string name="ambient_display_custom_title">Ekran dostosowany do otoczenia</string>
+    <string name="ambient_display_custom_summary">Zawsze włączony, informacje o muzyce, gesty</string>
+    <string name="screen_title">Ekran</string>
+    <string name="screen_summary">Zaokrąglone narożniki, skalowanie starszych aplikacji</string>
+    <string name="media_title">Multimedia</string>
+    <!-- About -->
+    <string name="havoc_announcements_title">Ogłoszenia</string>
+    <string name="havoc_announcements_summary">Oficjalny kanał ogłoszeniowy</string>
+    <string name="havoc_telegram_title">Telegram</string>
+    <string name="havoc_telegram_summary">Grupa wsparcia dla oficjalnych wersji</string>
+    <string name="havoc_source_title">Github</string>
+    <string name="havoc_source_summary">Kod źródłowy Havoc-OS</string>
+    <string name="havoc_donate">Wesprzyj</string>
+    <string name="havoc_donate_summary">Pokaż swoje wsparcie dla zespołu Havoc-OS</string>
+    <string name="havoc_links">Linki</string>
+    <string name="website_title">Strona</string>
+    <string name="website_title_summary">Pobierz Havoc-OS dla swojego urządzenia</string>
+    <!-- Custom actions -->
+    <!-- Lockscreen Categories -->
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informacje o ładowaniu</string>
+    <string name="lockscreen_battery_info_summary">Pokaż dodatkowe informacje o baterii podczas ładowania</string>
+    <!-- ANBI -->
+    <string name="anbi_title">Przypadkowe dotknięcie</string>
+    <string name="anbi_summary">Zapobiegaj przypadkowemu użyciu przycisków nawigacyjnych, gdy dotykasz ekranu</string>
+    <string name="volume_title">Przyciski głośności</string>
+    <!-- Volume rocker music control -->
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Wybudź urządzenie</string>
+    <string name="volume_rocker_wake_summary">Naciśnij przycisk głośności aby wybudzić urządzenie</string>
+    <!-- Volume rocker cursor control -->
+    <string name="volume_key_cursor_control_title">Sterowanie kursorem klawiatury</string>
+    <string name="volume_key_cursor_control_off">Wyłączone</string>
+    <string name="volume_key_cursor_control_on">Klawisz głośności w górę/w dół przesuwa kursor w lewo/prawo</string>
+    <string name="volume_key_cursor_control_on_reverse">Klawisz głośności w górę/w dół przesuwa kursor w prawo/lewo</string>
+    <!-- Wake on charge -->
+    <string name="charge_title">Ładowanie</string>
+    <string name="wakeup_when_plugged_unplugged_title">Wybudź urządzenie</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wybudź urządzenie przy podłączaniu/odłączaniu ładowarki</string>
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Dwukrotnie stuknij by uśpić</string>
+    <string name="double_tap_sleep_lockscreen_summary">Dwukrotnie dotknij ekranu blokady w celu uśpienia urządzenia</string>
+    <string name="double_tap_sleep_gesture_title">Stuknij dwukrotnie aby uśpić</string>
+    <string name="double_tap_sleep_gesture_summary">Dwukrotnie stuknij na pasek stanu, aby uśpić urządzenie</string>
+    <!-- Power Menu -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Heads up -->
+    <string name="notification_stat">Pasek stanu</string>
+    <string name="heads_up_notifications">Wyskakujące powiadomienia</string>
+    <string name="heads_up_notifications_summary">Wyskakujące powiadomienia na pasku stanu</string>
+    <string name="heads_up_stoplist_title">Lista wstrzymanych</string>
+    <string name="heads_up_blacklist_title">Czarna lista</string>
+    <!-- QuickSettings haptic feedback -->
+    <!-- Quick settings tiles columns and rows config -->
+    <string name="qs_tiles_category">Kafelki</string>
+    <string name="qs_columns_portrait_title">Kolumny (tryb pionowy)</string>
+    <string name="qs_columns_landscape_title">Kolumny (tryb poziomy)</string>
+    <string name="qs_tile_title_visibility_title">Tytuły kafelków</string>
+    <string name="qs_tile_title_visibility_summary">Wyświetl tytuł pod każdym kafelkiem</string>
+    <string name="qs_rows_portrait_title">Ilość kafelków (tryb pionowy)</string>
+    <string name="qs_rows_landscape_title">Ilość kafelków (tryb poziomy)</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Inteligentne piksele</string>
+    <string name="smart_pixels_summary">Wyłącz niektóre piksele aby zmniejszyć zużycie energii</string>
+    <string name="smart_pixels_percent">Piksele wyłączone</string>
+    <string name="smart_pixels_shift">Częstotliwość ochrony przed wypaleniem</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="ls_fingerprint">Odcisk palca</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_title">Kroki poziomów głośności</string>
+    <string name="volume_steps_alarm_title">Kroki głośności: Alarm</string>
+    <string name="volume_steps_dtmf_title">Kroki głośności: Klawiatura numeryczna</string>
+    <string name="volume_steps_music_title">Kroki głośności: Media</string>
+    <string name="volume_steps_notification_title">Kroki głośności: Powiadomienia</string>
+    <string name="volume_steps_ring_title">Kroki głośności: Dzwonek</string>
+    <string name="volume_steps_system_title">Kroki głośności: System</string>
+    <string name="volume_steps_voice_call_title">Kroki głośności: Połączenie głosowe</string>
+    <string name="volume_steps_reset">Przywróć domyślne</string>
+    <!-- Disabling FC notifications -->
+    <!-- 4G icon -->
+    <string name="statusbar_items_category">Ikony</string>
+    <!-- Volume swap buttons -->
+    <string name="swap_volume_buttons_title">Zamień przyciski</string>
+    <string name="swap_volume_buttons_summary">Odwróć klawisze głośności, gdy urządzenie jest obracane</string>
+    <!-- Lock screen cover art -->
+    <string name="media_art_title">Grafika multimediów</string>
+    <!-- Lock screen media blur -->
+    <string name="lockscreen_media_blur_title">Poziom rozmycia grafiki multimediów</string>
+    <!-- Data disabled icon -->
+    <!-- Roaming indicator icon -->
+    <!-- Statusbar net monitor -->
+    <string name="statusbar_ntraffic">Sieć</string>
+    <string name="network_traffic_statusbar">Pasek stanu</string>
+    <string name="network_traffic_qs_header">Nagłówek szybkich ustawień</string>
+    <string name="network_traffic_autohide_threshold_title">Próg automatycznego ukrywania</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Ikona statusu</string>
+    <string name="statusbar_items_summary">Skonfiguruj widoczność ikon na pasku stanu</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Odwróć układ</string>
+    <string name="navbar_invert_layout_summary">Użyj odwróconego układu dla przycisków paska nawigacyjnego</string>
+    <string name="nav_bar_layout">Układ</string>
+    <!-- Torch Power button gestures -->
+    <!-- Bluetooth battery status -->
+    <!-- Notification light -->
+    <!-- Battery light -->
+    <string name="default_string">Domyślne</string>
+    <!-- Pocket judge -->
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Regulacja jasności</string>
+    <string name="status_bar_toggle_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
+    <!-- Quick settings brightness slider -->
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">Ikona automatycznej jasności</string>
+    <string name="brightness_icon_summary">Pokaż przełącznik jasności adaptacyjnej obok suwaka</string>
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Animacja ładowania</string>
+    <string name="charging_animation_summary">Pokaż animacje w trakcie ładowania urządzenia</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Limit czasu</string>
+    <string name="heads_up_time_out_summary">Wyskakujące powiadomienia będą wyświetlane przez <xliff:g id="number">%d</xliff:g> sekund</string>
+    <string name="heads_up_time_out_2sec">2 sekundy</string>
+    <string name="heads_up_time_out_4sec">4 sekundy</string>
+    <string name="heads_up_time_out_5sec">5 sekund</string>
+    <string name="heads_up_time_out_6sec">6 sekund</string>
+    <string name="heads_up_time_out_8sec">8 sekund</string>
+    <string name="heads_up_time_out_10sec">10 sekund</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Licznik czasu drzemki</string>
+    <string name="heads_up_snooze_summary_one_minute">Przesunięcie palcem w górę na wyskakującym powiadomieniu usypia powiadomienia z tej aplikacji na 1 minutę</string>
+    <string name="heads_up_snooze_summary">Przesunięcie palcem w górę na wyskakującym powiadomieniu usypia powiadomienia z tej aplikacji <xliff:g id="number">%d</xliff:g> minut</string>
+    <string name="heads_up_snooze_disabled_summary">Licznik czasu drzemki jest wyłączony</string>
+    <string name="heads_up_snooze_1min">1 minuta</string>
+    <string name="heads_up_snooze_5min">5 minut</string>
+    <string name="heads_up_snooze_10min">10 minut</string>
+    <string name="heads_up_snooze_15min">15 minut</string>
+    <string name="heads_up_snooze_20min">20 minut</string>
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Mniej nudne wyskakujące powiadomienia</string>
+    <string name="less_boring_heads_up_summary">Pokaż wyskakujące powiadomienia tylko dla dialera, wiadomości i alarmu</string>
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Pasek stanu</string>
+    <string name="lockscreen_show_status_bar_summary">Pokaż pasek stanu na ekranie blokady</string>
+    <!-- Screen state service -->
+    <!-- Show QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Szybkie ustawienia</string>
+    <string name="show_qs_on_secure_keyguard_summary">Pokaż szybkie ustawienia na zabezpieczonym ekranie blokady</string>
+    <!-- AOKP custom system animations -->
+    <!-- Tiles animation style  -->
+    <!-- Battery -->
+    <string name="battery_category_title">Bateria</string>
+    <string name="status_bar_battery_style_title">Styl ikony</string>
+    <string name="status_bar_battery_style_icon_portrait">Pionowy</string>
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_dotted_circle">Okrąg (kropkowany)</string>
+    <string name="status_bar_battery_style_filled_circle">Okrąg (wypełniony)</string>
+    <string name="status_bar_battery_style_hidden">Ukryty</string>
+    <string name="battery_percentage_title">Procent baterii</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Szybkie rozwijanie</string>
+    <string name="quick_pulldown_off">Wyłączone</string>
+    <string name="quick_pulldown_left">Z lewej</string>
+    <string name="quick_pulldown_right">Z prawej</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Tryb gry</string>
+    <string name="gaming_mode_summary">Popraw swoje wrażenia z gry</string>
+    <!-- Volume key answer -->
+    <string name="volume_answer_call_title">Odbieranie połączeń</string>
+    <string name="volume_answer_call_summary">Odbieranie połączeń za pomocą klawiszy głośności</string>
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Głośne powiadomienia</string>
+    <string name="notification_sound_vib_screen_on_summary">Odtwarzaj dźwięk i wibracje dla powiadomień, gdy ekran jest włączony</string>
+    <!-- Statusbar Clock -->
+    <string name="status_bar_clock_title">Zegar</string>
+    <string name="status_bar_clock_summary">Dostosuj zegar &amp; ustawienia daty</string>
+    <string name="status_bar_clock_style_title">Pozycja zegara</string>
+    <string name="status_bar_clock_style_right">Z prawej</string>
+    <string name="status_bar_clock_style_center">Na środku</string>
+    <string name="status_bar_clock_style_left">Z lewej</string>
+    <string name="status_bar_am_pm_title">Format 12-godzinny</string>
+    <string name="status_bar_am_pm_info">24 godzinny format zegara jest włączony</string>
+    <string name="status_bar_am_pm_normal">Normalny</string>
+    <string name="status_bar_am_pm_small">Mały</string>
+    <string name="status_bar_am_pm_hidden">Ukryty</string>
+    <string name="clock_seconds_display">Pokaż sekundy</string>
+    <string name="clock_seconds_display_summary">Pokaż sekundy w zegarze</string>
+    <string name="status_bar_clock_auto_hide_title">Automatyczne ukrywanie zegara</string>
+    <string name="status_bar_clock_auto_hide_summary">Ukrywaj i pokazuj zegar w regularnych odstępach czasu</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Czas ukrywania</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Czas wyświetlania</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Nazwa operatora</string>
+    <string name="custom_carrier_label_explain">Wprowadź własną etykietę. Pozostaw puste, aby użyć nazwy sieci</string>
+    <string name="custom_carrier_label_notset">Własna etykieta nie jest ustawiona</string>
+    <string name="show_carrier_keyguard">Ekran blokady</string>
+    <string name="show_carrier_statusbar">Pasek stanu</string>
+    <string name="show_carrier_enabled">Obydwa</string>
+    <!-- Statusbar logo -->
+    <string name="status_bar_logo_title">Logo</string>
+    <string name="status_bar_logo_summary">Pokaż niestandardowe logo na pasku stanu</string>
+    <string name="status_bar_logo_position">Położenie logo</string>
+    <string name="status_bar_logo_position_right">Z prawej</string>
+    <string name="status_bar_logo_position_left">Z lewej</string>
+    <string name="status_bar_logo_style">Styl logo</string>
+    <string name="status_bar_logo_style_havoc">Havoc</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Zagrożenie biologiczne</string>
+    <string name="status_bar_logo_style_blackberry">Blackberry</string>
+    <string name="status_bar_logo_style_blogger">Blogger</string>
+    <string name="status_bar_logo_style_bomb">Bomba</string>
+    <string name="status_bar_logo_style_brain">Mózg</string>
+    <string name="status_bar_logo_style_cake">Ciasto</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_death_star">Gwiazda śmierci</string>
+    <string name="status_bar_logo_style_emoticon">Emoji</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoji (Cool)</string>
+    <string name="status_bar_logo_style_emoticon_dead">Emoji (Śmierć)</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoji (Diabeł)</string>
+    <string name="status_bar_logo_style_emoticon_happy">Emoji (Szczęśliwy)</string>
+    <string name="status_bar_logo_style_emoticon_neutral">Emoji (Neutralny)</string>
+    <string name="status_bar_logo_style_emoticon_poop">Emoji (Kupa)</string>
+    <string name="status_bar_logo_style_emoticon_sad">Emoji (Smutny)</string>
+    <string name="status_bar_logo_style_emoticon_tongue">Emoji (Język)</string>
+    <string name="status_bar_logo_style_fire">Ogień</string>
+    <string name="status_bar_logo_style_flask">Kolba</string>
+    <string name="status_bar_logo_style_gender_male">Płeć (Mężczyzna)</string>
+    <string name="status_bar_logo_style_gender_female">Płeć (Kobieta)</string>
+    <string name="status_bar_logo_style_gender_male_female">Płeć (Mężczyzna &amp; Kobieta)</string>
+    <string name="status_bar_logo_style_ghost">Duch</string>
+    <string name="status_bar_logo_style_google">Google</string>
+    <string name="status_bar_logo_style_guitar_acoustic">Gitara (Akustyczna)</string>
+    <string name="status_bar_logo_style_guitar_electric">Gitara (Elektryczna)</string>
+    <string name="status_bar_logo_style_heart">Serce</string>
+    <string name="status_bar_logo_style_human_male">Człowiek (Mężczyzna)</string>
+    <string name="status_bar_logo_style_human_female">Człowiek (Kobieta)</string>
+    <string name="status_bar_logo_style_human_male_female">Człowiek (Mężczyzna &amp; Kobieta)</string>
+    <string name="status_bar_logo_style_incognito">Incognito</string>
+    <string name="status_bar_logo_style_ios">iOS</string>
+    <string name="status_bar_logo_style_linux">Linux</string>
+    <string name="status_bar_logo_style_lock">Blokada</string>
+    <string name="status_bar_logo_style_music_note">Nuta</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_pac_man">Pac-Man</string>
+    <string name="status_bar_logo_style_peace">Pokój</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_skull">Czaszka</string>
+    <string name="status_bar_logo_style_smoking">Palenie</string>
+    <string name="status_bar_logo_style_wallet">Portfel</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">XBOX</string>
+    <string name="status_bar_logo_style_xbox_controller">Kontroler XBOX</string>
+    <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
+    <!-- QS background opacity -->
+    <string name="qs_theme_category">Styl</string>
+    <!-- QS header image -->
+    <!-- Rounded corners -->
+    <string name="corners_category_title">Narożniki</string>
+    <string name="corner_radius">Promień zaokrąglonych narożników</string>
+    <string name="corner_fwvals_title">Użyj wartości frameworka</string>
+    <string name="corner_fwvals_summary">Użyj wartości domyślnych dla swojego urządzenia</string>
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Szacunki baterii</string>
+    <string name="qs_show_battery_estimate_summary">Pokaż szacowany pozostały czas pracy baterii obok ikony</string>
+    <!-- Swap navigation keys -->
+    <string name="swap_navigation_keys_title">Zamień przyciski</string>
+    <string name="swap_navigation_keys_title_summary">Zamień przycisk wstecz i ostatnio używanych</string>
+    <!-- Old mobile type icons -->
+    <!-- Ambient edge lighting -->
+    <string name="notification_screen_title">Ekran</string>
+    <string name="pulse_ambient_light_title">Oświetlenie krawędzi</string>
+    <string name="pulse_ambient_light_summary">Podświetl boczne krawędzie ekranu podczas pulsu powiadomień</string>
+    <string name="pulse_ambient_light_color_title">Własny kolor</string>
+    <string name="pulse_ambient_light_color_mode_title">Kolor światła</string>
+    <string name="pulse_ambient_light_color_mode_notification">Automatyczne (według powiadomień)</string>
+    <string name="pulse_ambient_light_color_mode_wall">Automatycznie (według tapety)</string>
+    <string name="pulse_ambient_light_color_mode_accent">Akcent</string>
+    <string name="pulse_ambient_light_color_mode_custom">Niestandardowy</string>
+    <string name="pulse_ambient_light_duration_title">Czas oświetlenia</string>
+    <string name="pulse_ambient_light_repeat_count_title">Liczba powtórzeń oświetlenia</string>
+    <string name="pulse_ambient_light_show_always_title">Pokaż zawsze</string>
+    <string name="pulse_ambient_light_show_always_summary">Pokaż światła dla wszystkich wydarzeń drzemki, a nie tylko powiadomień</string>
+    <!-- QS footer icons -->
+    <string name="qs_footer_title">Stopka</string>
+    <string name="qs_footer_settings_title">Ikona ustawień</string>
+    <string name="qs_footer_settings_summary">Wyświetl ikonę ustawień w stopce szybkich ustawień</string>
+    <string name="qs_footer_services_title">Ikona uruchomionych usług</string>
+    <string name="qs_footer_services_summary">Wyświetl ikonę uruchomionych usług w stopce szybkich ustawień</string>
+    <string name="qs_footer_edit_title">Ikona edycji</string>
+    <string name="qs_footer_edit_summary">Wyświetl ikonę edycji w stopce szybkich ustawień</string>
+    <!-- Brightness buttons -->
+    <!-- Ambient visualizer -->
+    <!-- Blink flashlight for incoming calls -->
+    <string name="notification_flash_title">Latarka</string>
+    <string name="flashlight_on_call_title">Miganie dla połączeń przychodzących</string>
+    <string name="flashlight_on_call_disabled">Wyłączone</string>
+    <string name="flashlight_on_call_not_dnd">Tylko w trybie dzwonka</string>
+    <string name="flashlight_on_call_dnd">Tylko w trybie Nie Przeszkadzać</string>
+    <string name="flashlight_on_call_always">Zawsze</string>
+    <string name="flashlight_on_call_wait_title">Miganie przy połączeniu oczekującym</string>
+    <string name="flashlight_on_call_wait_summary">Pulsuj latarką, przy połączeniu oczekującym</string>
+    <!-- Screenshot -->
+    <string name="screenshot_type_title">Typ zrzutu ekranu</string>
+    <string name="screenshot_type_fullscreen">Pełny</string>
+    <string name="screenshot_type_partial">Częściowy</string>
+    <!-- Lock icon -->
+    <!-- QS blur -->
+    <!-- HW keys -->
+    <string name="hardware_keys_title">Sprzęt</string>
+    <string name="hardware_keys_disable_title">Przyciski sprzętowe</string>
+    <string name="hardware_keys_disable_summary">Użyj klawiszy sprzętowych do nawigacji</string>
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">Pasek nawigacyjny</string>
+    <string name="navigation_bar_summary">Włącz pasek nawigacyjny na ekranie</string>
+    <string name="navigation_bar_arrow_keys_title">Klawisze strzałek</string>
+    <string name="navigation_bar_arrow_keys_summary">Pokaż strzałki w lewo &amp; prawo aby kontrolować kursor podczas pisania</string>
+    <!-- Button backlight -->
+    <string name="button_backlight_title">Podświetlenie przycisku</string>
+    <!-- Long swipe gestures -->
+    <!-- Full screen gestures -->
+    <!-- Back gesture -->
+    <!-- Media heads up -->
+    <!-- FOD animation -->
+    <string name="fod_recognizing_animation_title">Animacja rozpoznawania</string>
+    <string name="fod_recognizing_animation_summary">Pokaż animację podczas czytania odcisku palca</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_title">Odtwarzanie adaptacyjne</string>
+    <string name="adaptive_playback_timeout_title">Limit czasu odtwarzania</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuta</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuty</string>
+    <string name="adaptive_playback_timeout_5_min">5 minut</string>
+    <string name="adaptive_playback_timeout_10_min">10 minut</string>
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Wyłącz ekran</string>
+    <string name="screen_off_fod_summary">Użyj czytnika linii papilarnych również gdy ekran jest wyłączony</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Miejsce przycisku IME</string>
+    <string name="navigation_bar_ime_space_summary">Pokaż przestrzeń przycisków IME pod klawiaturą</string>
+    <!-- Display cutout -->
+    <!-- Smart pulldown-->
+    <!-- Sensor block per-package -->
+    <!-- Battery Bar -->
+    <!-- Status Bar Ticker -->
+    <!-- Headset ringtone audio focus -->
+    <!-- QS tile tint -->
+    <!-- QS statusbar background -->
+    <!-- Notification count -->
+    <!-- Dashboard -->
+    <!-- Pulse -->
+</resources>

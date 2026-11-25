@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="config_center_title">कॉन्फ़िगरेशन सेंटर</string>
+    <!-- Preferences -->
+    <string name="about_title">हमारे बारे में</string>
+    <string name="about_summary">Havoc-OS के बारे में अधिक जानें</string>
+    <string name="buttons_summary">हार्डवेयर बटन्स, नेविगेशन पट्टी</string>
+    <string name="gestures_title">इशारे</string>
+    <string name="gestures_summary">कैमरा खोले, स्क्रीनशॉट के लिए स्वाइप करें</string>
+    <string name="lockscreen_title">लॉक स्क्रीन</string>
+    <string name="misc_title">विविध</string>
+    <string name="misc_summary">गेमिंग मोड, चार्जिंग एनीमेशन</string>
+    <string name="navigation_title">नेविगेशन</string>
+    <string name="notifications_title">नोटिफिकेशंस</string>
+    <string name="notifications_summary">प्रकाशित किनारे, हेड्स अप</string>
+    <string name="quicksettings_title">क्विक सेटिंग्स</string>
+    <string name="quicksettings_summary">टाइल रूपरेखा, हैडर फोटो, बैक ग्राउंड का धुंधलापन</string>
+    <string name="statusbar_title">स्टेटस बार</string>
+    <string name="statusbar_summary">घड़ी, प्रतीक चिन्ह, स्टेटस बार आइकंस</string>
+    <string name="battery_title">बैटरी बचत</string>
+    <string name="ambient_display_custom_title">एम्बिएंट डिस्प्ले</string>
+    <string name="ambient_display_custom_summary">हमेशा चालू, संगीत टिकर, इशारे</string>
+    <string name="screen_title">स्क्रीन</string>
+    <string name="screen_summary">गोल कोने, लेगेसी ऐप परिमाण</string>
+    <string name="media_title">मीडिया</string>
+    <!-- About -->
+    <string name="havoc_announcements_title">घोषणाएं</string>
+    <string name="havoc_announcements_summary">आधिकारिक घोषणा चैनल</string>
+    <string name="havoc_telegram_title">टेलीग्राम</string>
+    <string name="havoc_telegram_summary">आधिकारिक बिल्ड के लिए समर्थन ग्रुप</string>
+    <string name="havoc_source_title">गितहब</string>
+    <string name="havoc_source_summary">Havoc-OS सोर्स कोड</string>
+    <string name="havoc_donate">दान करें</string>
+    <string name="havoc_donate_summary">Havoc-OS टीम के लिए समर्थन दिखाएं</string>
+    <string name="havoc_links">लिंक्‍स:</string>
+    <string name="website_title">वेबसाइट</string>
+    <string name="website_title_summary">अपने फोन के लिए Havoc-OS डाऊनलोड करें</string>
+    <!-- Custom actions -->
+    <!-- Lockscreen Categories -->
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">चार्जिंग की जानकारी</string>
+    <string name="lockscreen_battery_info_summary">चार्ज करते समय बैटरी के बारे में अतिरिक्त जानकारी दिखाएं</string>
+    <!-- ANBI -->
+    <string name="anbi_title">आकस्मिक स्पर्श</string>
+    <string name="anbi_summary">स्क्रीन को छूते समय नेविगेशन बटन्स को बंद करें</string>
+    <string name="volume_title">वॉल्‍यूम बटन</string>
+    <!-- Volume rocker music control -->
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">फोन चालू करें</string>
+    <string name="volume_rocker_wake_summary">वॉल्यूम बटन दबाने से आपका फोन चालू हो जाएगा</string>
+    <!-- Volume rocker cursor control -->
+    <string name="volume_key_cursor_control_title">कीबोर्ड के कर्सर को नियंत्रित करें</string>
+    <string name="volume_key_cursor_control_off">बंद</string>
+    <string name="volume_key_cursor_control_on">वॉल्यूम ऊपर / नीचे करने वाले बटन कर्सर को बाएँ / दांए ले जाते हैं</string>
+    <string name="volume_key_cursor_control_on_reverse">वॉल्यूम ऊपर / नीचे करने वाले बटन कर्सर को दाएं / बाएं ले जाते हैं</string>
+    <!-- Wake on charge -->
+    <string name="charge_title">चार्जिंग</string>
+    <string name="wakeup_when_plugged_unplugged_title">फोन चालू करें</string>
+    <string name="wakeup_when_plugged_unplugged_summary">चार्जर लगाने या हटाने पर स्क्रीन चालू करें</string>
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">स्क्रीन बंद करने के लिए दो बार स्पर्श करें</string>
+    <string name="double_tap_sleep_lockscreen_summary">स्क्रीन बंद करने के लिए दो बार लॉक स्क्रीन स्पर्श करें</string>
+    <string name="double_tap_sleep_gesture_title">स्क्रीन बंद करने के लिए दो बार स्पर्श करें</string>
+    <string name="double_tap_sleep_gesture_summary">स्क्रीन बंद करने के लिए दो बार स्टेटस बार स्पर्श करें</string>
+    <!-- Power Menu -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Heads up -->
+    <string name="notification_stat">स्टेटस बार</string>
+    <string name="heads_up_notifications">हेड्स अप</string>
+    <string name="heads_up_notifications_summary">स्टेटस बार नोटिफिकेशंस को बाहर निकाल कर दिखाएं</string>
+    <string name="heads_up_stoplist_title">स्टॉप-लिस्ट</string>
+    <string name="heads_up_blacklist_title">ब्लैक-लिस्ट</string>
+    <!-- QuickSettings haptic feedback -->
+    <!-- Quick settings tiles columns and rows config -->
+    <string name="qs_tiles_category">क्विक सेटिंग्स टाइल</string>
+    <string name="qs_columns_portrait_title">स्तंभ (पोर्ट्रेट)</string>
+    <string name="qs_columns_landscape_title">स्तंभ (लैंडस्केप)</string>
+    <string name="qs_tile_title_visibility_title">टाइल का नाम</string>
+    <string name="qs_tile_title_visibility_summary">हर टाइल के नीचे नाम दिखाएं</string>
+    <string name="qs_rows_portrait_title">पंक्तियाँ (पोर्ट्रेट)</string>
+    <string name="qs_rows_landscape_title">पंक्तियाँ (लैंडस्केप)</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">स्मार्ट पिक्सल्स</string>
+    <string name="smart_pixels_summary">बैटरी बचत के लिए कुछ पिक्सल्स बंद करें</string>
+    <string name="smart_pixels_percent">पिक्सल्स बंद किए</string>
+    <string name="smart_pixels_shift">स्क्रीन बचाने के लिए समय अंतराल</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="ls_fingerprint">फिंगरप्रिंट</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_title">ध्वनि स्तर</string>
+    <string name="volume_steps_alarm_title">ध्वनि स्तर: अलार्म</string>
+    <string name="volume_steps_dtmf_title">ध्वनि स्तर: DTMF</string>
+    <string name="volume_steps_music_title">ध्वनि स्तर: संगीत</string>
+    <string name="volume_steps_notification_title">ध्वनि स्तर: अधिसूचना</string>
+    <string name="volume_steps_ring_title">ध्वनि स्तर: रिंगर</string>
+    <string name="volume_steps_system_title">ध्वनि स्तर: सिस्टम</string>
+    <string name="volume_steps_voice_call_title">ध्वनि स्तर: वॉयस कॉल</string>
+    <string name="volume_steps_reset">पुनः सेट करें</string>
+    <!-- Disabling FC notifications -->
+    <!-- 4G icon -->
+    <string name="statusbar_items_category">आइकॉन</string>
+    <!-- Volume swap buttons -->
+    <string name="swap_volume_buttons_title">बटन की अदला बदली करें</string>
+    <string name="swap_volume_buttons_summary">फोन घुमाने पर वॉल्यूम बटन उल्टा करें</string>
+    <!-- Lock screen cover art -->
+    <string name="media_art_title">संगीत कलाचित्र</string>
+    <!-- Lock screen media blur -->
+    <string name="lockscreen_media_blur_title">मीडिया आवरण चित्र के धुंधलेपन का स्तर</string>
+    <!-- Data disabled icon -->
+    <!-- Roaming indicator icon -->
+    <!-- Statusbar net monitor -->
+    <string name="statusbar_ntraffic">नेटवर्क</string>
+    <string name="network_traffic_statusbar">स्टेटस बार</string>
+    <string name="network_traffic_qs_header">क्विक सेटिंग्स हैडर</string>
+    <string name="network_traffic_autohide_threshold_title">स्वत-छिपाने की सीमा</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">स्टेटसबार आइकंस</string>
+    <string name="statusbar_items_summary">स्टेटस बार में आइकन दृश्यता को संयोजित करें</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">उल्टी रूपरेखा</string>
+    <string name="navbar_invert_layout_summary">नेविगेशन बार बटंस प्रारूप को उल्टा करें</string>
+    <string name="nav_bar_layout">रूपरेखा</string>
+    <!-- Torch Power button gestures -->
+    <!-- Bluetooth battery status -->
+    <!-- Notification light -->
+    <!-- Battery light -->
+    <string name="default_string">पूर्व निर्धारित</string>
+    <!-- Pocket judge -->
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">चमक नियंत्रण</string>
+    <string name="status_bar_toggle_brightness_summary">स्टेटस बार पर स्लाइड करके चमक समायोजित करें</string>
+    <!-- Quick settings brightness slider -->
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">स्वत: चमक आइकन</string>
+    <string name="brightness_icon_summary">स्वत: चमक के लिए स्लाइडर के बग़ल स्विच दिखाएं</string>
+    <!-- Charging animation -->
+    <string name="charging_animation_title">चार्जिंग एनीमेशन</string>
+    <string name="charging_animation_summary">फोन चार्ज करते समय एनीमेशन प्रदर्शित करें</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">समय समाप्त</string>
+    <string name="heads_up_time_out_summary">नोटिफिकेशन की झलक <xliff:g id="number">%d</xliff:g> सेकंड तक दिखाई देगी</string>
+    <string name="heads_up_time_out_2sec">2 सेकंड</string>
+    <string name="heads_up_time_out_4sec">4 सेकंड</string>
+    <string name="heads_up_time_out_5sec">5 सेकंड</string>
+    <string name="heads_up_time_out_6sec">6 सेकंड</string>
+    <string name="heads_up_time_out_8sec">8 सेकंड</string>
+    <string name="heads_up_time_out_10sec">10 सेकंड</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">टाइमर स्नूज़ करें</string>
+    <string name="heads_up_snooze_summary_one_minute">दिख रहे नोटिफिकेशन पर स्वाइप करने से 1 मिनट के लिए उस एप्लिकेशन में हेड्स अप नोटिफिकेशंस दिखाई नहीं देंगे</string>
+    <string name="heads_up_snooze_summary">दिख रहे नोटिफिकेशन पर स्वाइप करने से उस एप्लिकेशन के लिए हेड्स अप नोटिफिकेशंस <xliff:g id="number">%d</xliff:g> मिनट के लिए बंद हो जाएंगे</string>
+    <string name="heads_up_snooze_disabled_summary">स्नूज़ टाइमर बंद है</string>
+    <string name="heads_up_snooze_1min">1 मिनट</string>
+    <string name="heads_up_snooze_5min">5 मिनट</string>
+    <string name="heads_up_snooze_10min">10 मिनट</string>
+    <string name="heads_up_snooze_15min">15 मिनट</string>
+    <string name="heads_up_snooze_20min">20 मिनट</string>
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">कम उबाऊ हेड्स अप</string>
+    <string name="less_boring_heads_up_summary">केवल फोन, मैसेजिंग और अलार्म के लिए हेड्स अप नोटिफिकेशन दिखाएं</string>
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">स्टेटस बार</string>
+    <string name="lockscreen_show_status_bar_summary">लॉक स्क्रीन पर स्टेटस बार दिखाएं</string>
+    <!-- Screen state service -->
+    <!-- Show QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">क्विक सेटिंग्स</string>
+    <string name="show_qs_on_secure_keyguard_summary">सुरक्षित लॉक स्क्रीन पर क्विक सेटिंग्स दिखाएं</string>
+    <!-- AOKP custom system animations -->
+    <!-- Tiles animation style  -->
+    <!-- Battery -->
+    <string name="battery_category_title">बैटरी</string>
+    <string name="status_bar_battery_style_title">आइकन स्टाइल</string>
+    <string name="status_bar_battery_style_icon_portrait">पोर्ट्रेट</string>
+    <string name="status_bar_battery_style_circle">वृत्त</string>
+    <string name="status_bar_battery_style_dotted_circle">वृत्त (बिंदुकृत)</string>
+    <string name="status_bar_battery_style_filled_circle">वृत्त (भरा हुआ)</string>
+    <string name="status_bar_battery_style_hidden">छुपा हुआ</string>
+    <string name="battery_percentage_title">बैटरी प्रतिशत</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">तुरंत नीचे खींचना</string>
+    <string name="quick_pulldown_off">बंद</string>
+    <string name="quick_pulldown_left">बाएं</string>
+    <string name="quick_pulldown_right">दाएं</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">गेमिंग मोड</string>
+    <string name="gaming_mode_summary">अपने गेम अनुभव को बेहतर बनाएं</string>
+    <!-- Volume key answer -->
+    <string name="volume_answer_call_title">कॉल का उत्तर दें</string>
+    <string name="volume_answer_call_summary">कॉल उठाने के लिए वॉल्यूम बटन दबाएं</string>
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">अशांत नोटिफिकेशंस</string>
+    <string name="notification_sound_vib_screen_on_summary">स्क्रीन चालू होने पर नोटिफिकेशंस के लिए ध्वनि व: कम्पन करें</string>
+    <!-- Statusbar Clock -->
+    <string name="status_bar_clock_title">घड़ी</string>
+    <string name="status_bar_clock_summary">घड़ी &amp; दिनांक सेटिंग्स को संयोजित करें</string>
+    <string name="status_bar_clock_style_title">घड़ी के लिए स्थान</string>
+    <string name="status_bar_clock_style_right">दाएं</string>
+    <string name="status_bar_clock_style_center">मध्य</string>
+    <string name="status_bar_clock_style_left">बाएं</string>
+    <string name="status_bar_am_pm_title">ऐऍम/पीऍम शैली</string>
+    <string name="status_bar_am_pm_info">24-घंटे की घड़ी चालू है</string>
+    <string name="status_bar_am_pm_normal">सामान्य</string>
+    <string name="status_bar_am_pm_small">छोटा</string>
+    <string name="status_bar_am_pm_hidden">छुपा हुआ</string>
+    <string name="clock_seconds_display">सेकंड दिखाएँ</string>
+    <string name="clock_seconds_display_summary">घड़ी में सेकंड्स दिखाएं</string>
+    <string name="status_bar_clock_auto_hide_title">स्वत: घड़ी छुपाएं</string>
+    <string name="status_bar_clock_auto_hide_summary">नियमित अंतराल पर घड़ी छिपाएं और दिखाएं</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">छिपाने की अवधि</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">दिखाने की अवधि</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">कैरियर लेबल</string>
+    <string name="custom_carrier_label_explain">एक इच्छित लेबल दर्ज करें अपने नेटवर्क नाम का उपयोग करने के लिए खाली छोड़ दें</string>
+    <string name="custom_carrier_label_notset">वर्तमान में इच्छित लेबल सेट नहीं है</string>
+    <string name="show_carrier_keyguard">लॉकस्क्रीन</string>
+    <string name="show_carrier_statusbar">स्टेटस बार</string>
+    <string name="show_carrier_enabled">दोनों</string>
+    <!-- Statusbar logo -->
+    <string name="status_bar_logo_title">लोगो</string>
+    <string name="status_bar_logo_summary">स्टेटस बार में इच्छित प्रतीक चिन्ह दिखाएं</string>
+    <string name="status_bar_logo_position">प्रतीक चिन्ह का स्थान</string>
+    <string name="status_bar_logo_position_right">दाएं</string>
+    <string name="status_bar_logo_position_left">बाएं</string>
+    <string name="status_bar_logo_style">लोगो का प्रकार</string>
+    <string name="status_bar_logo_style_havoc">Havoc</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_apple">ऐपल</string>
+    <string name="status_bar_logo_style_beats">बीट्स</string>
+    <string name="status_bar_logo_style_biohazard">बायोहेजार्ड</string>
+    <string name="status_bar_logo_style_blackberry">ब्लैकबेरी</string>
+    <string name="status_bar_logo_style_blogger">ब्लॉगर</string>
+    <string name="status_bar_logo_style_bomb">बम</string>
+    <string name="status_bar_logo_style_brain">मस्तिष्क</string>
+    <string name="status_bar_logo_style_cake">केक</string>
+    <string name="status_bar_logo_style_cannabis">कैनाबिस</string>
+    <string name="status_bar_logo_style_death_star">डैथ स्टार</string>
+    <string name="status_bar_logo_style_emoticon">इमोजी</string>
+    <string name="status_bar_logo_style_emoticon_cool">इमोजी (शानदार)</string>
+    <string name="status_bar_logo_style_emoticon_dead">इमोजी (मृत)</string>
+    <string name="status_bar_logo_style_emoticon_devil">इमोजी (शैतान)</string>
+    <string name="status_bar_logo_style_emoticon_happy">इमोजी (खुश)</string>
+    <string name="status_bar_logo_style_emoticon_neutral">इमोजी (सामान्य)</string>
+    <string name="status_bar_logo_style_emoticon_poop">इमोजी(शौच)</string>
+    <string name="status_bar_logo_style_emoticon_sad">इमोजी (दुःखी)</string>
+    <string name="status_bar_logo_style_emoticon_tongue">इमोजी(जीभ)</string>
+    <string name="status_bar_logo_style_fire">आग</string>
+    <string name="status_bar_logo_style_flask">फ्लास्क</string>
+    <string name="status_bar_logo_style_gender_male">लिंग (नर)</string>
+    <string name="status_bar_logo_style_gender_female">लिंग(मादा)</string>
+    <string name="status_bar_logo_style_gender_male_female">लिंग (नर &amp; मादा)</string>
+    <string name="status_bar_logo_style_ghost">भूत</string>
+    <string name="status_bar_logo_style_google">गूगल</string>
+    <string name="status_bar_logo_style_guitar_acoustic">गिटार (ध्वनिक)</string>
+    <string name="status_bar_logo_style_guitar_electric">गिटार (इलेक्ट्रिक)</string>
+    <string name="status_bar_logo_style_heart">दिल</string>
+    <string name="status_bar_logo_style_human_male">मानव(नर)</string>
+    <string name="status_bar_logo_style_human_female">मानव (मादा)</string>
+    <string name="status_bar_logo_style_human_male_female">मानव (नर &amp; मादा)</string>
+    <string name="status_bar_logo_style_incognito">गुप्त</string>
+    <string name="status_bar_logo_style_ios">आईओएस</string>
+    <string name="status_bar_logo_style_linux">लिनक्स</string>
+    <string name="status_bar_logo_style_lock">लॉक</string>
+    <string name="status_bar_logo_style_music_note">म्यूजिकल नोट</string>
+    <string name="status_bar_logo_style_ninja">निंजा</string>
+    <string name="status_bar_logo_style_pac_man">पैक मैन</string>
+    <string name="status_bar_logo_style_peace">शांति</string>
+    <string name="status_bar_logo_style_robot">रोबोट</string>
+    <string name="status_bar_logo_style_skull">खोपड़ी</string>
+    <string name="status_bar_logo_style_smoking">धूम्रपान</string>
+    <string name="status_bar_logo_style_wallet">बटुआ</string>
+    <string name="status_bar_logo_style_windows">विंडोज</string>
+    <string name="status_bar_logo_style_xbox">एक्स बॉक्स</string>
+    <string name="status_bar_logo_style_xbox_controller">एक्स बॉक्स नियंत्रक</string>
+    <string name="status_bar_logo_style_yin_yang">यिन यांग</string>
+    <!-- QS background opacity -->
+    <string name="qs_theme_category">स्टाइल</string>
+    <!-- QS header image -->
+    <!-- Rounded corners -->
+    <string name="corners_category_title">कोने</string>
+    <string name="corner_radius">कोने की गोलाई</string>
+    <string name="corner_fwvals_title">फ्रेमवर्क मान का प्रयोग करें</string>
+    <string name="corner_fwvals_summary">अपने फोन के लिए पूर्व निर्धारित मान का प्रयोग करें</string>
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">बैटरी का अनुमान</string>
+    <string name="qs_show_battery_estimate_summary">बैटरी आइकन के बग़ल बची हुई बैटरी का अनुमान दिखाएं</string>
+    <!-- Swap navigation keys -->
+    <string name="swap_navigation_keys_title">बटन की अदला बदली करें</string>
+    <string name="swap_navigation_keys_title_summary">रिसेंट्स और बैक बटन की अदला बदली करें</string>
+    <!-- Old mobile type icons -->
+    <!-- Ambient edge lighting -->
+    <string name="notification_screen_title">स्क्रीन</string>
+    <string name="pulse_ambient_light_title">प्रकाशित किनारे</string>
+    <string name="pulse_ambient_light_summary">नोटिफिकेशन आने पर स्क्रीन के किनारों को प्रकाशित करें</string>
+    <string name="pulse_ambient_light_color_title">मनपसंद रंग</string>
+    <string name="pulse_ambient_light_color_mode_title">हल्का रंग</string>
+    <string name="pulse_ambient_light_color_mode_notification">स्वत: (नोटिफिकेशन के आधार पर)</string>
+    <string name="pulse_ambient_light_color_mode_wall">स्वत: (वॉलपेपर आधारित)</string>
+    <string name="pulse_ambient_light_color_mode_accent">एक्सेंट</string>
+    <string name="pulse_ambient_light_color_mode_custom">इच्छित</string>
+    <string name="pulse_ambient_light_duration_title">प्रकाश अवधि</string>
+    <string name="pulse_ambient_light_repeat_count_title">प्रकाश दोहराव संख्या</string>
+    <string name="pulse_ambient_light_show_always_title">हमेशा दिखाएं</string>
+    <string name="pulse_ambient_light_show_always_summary">नोटिफिकेशन ही नहीं बल्कि सभी डोज इवेंट्स के लिए प्रकाश करें</string>
+    <!-- QS footer icons -->
+    <string name="qs_footer_title">फुटर</string>
+    <string name="qs_footer_settings_title">सेटिंग्स आइकन</string>
+    <string name="qs_footer_settings_summary">सेटिंग्स आइकन को क्विक सेटिंग्स पैनल के निचले हिस्से में दिखाएं</string>
+    <string name="qs_footer_services_title">चल रही सेवाएं</string>
+    <string name="qs_footer_services_summary">चल रही सेवाओं को क्विक सेटिंग्स पैनल के निचले हिस्से में देखें</string>
+    <string name="qs_footer_edit_title">आइकन संपादित करें</string>
+    <string name="qs_footer_edit_summary">एडिट आइकन को क्विक सेटिंग्स पैनल के निचले हिस्से में दिखाएं</string>
+    <!-- Brightness buttons -->
+    <!-- Ambient visualizer -->
+    <!-- Blink flashlight for incoming calls -->
+    <string name="notification_flash_title">फ्लैश लाइट</string>
+    <string name="flashlight_on_call_title">इनकमिंग कॉल के लिए टॉर्च बंद चालू करें</string>
+    <string name="flashlight_on_call_disabled">बंद कर दिया गया</string>
+    <string name="flashlight_on_call_not_dnd">केवल रिंगर मोड में</string>
+    <string name="flashlight_on_call_dnd">केवल परेशान ना करें मोड में</string>
+    <string name="flashlight_on_call_always">हमेशा</string>
+    <string name="flashlight_on_call_wait_title">कॉल प्रतीक्षा में होने पर टॉर्च बंद चालू करें</string>
+    <string name="flashlight_on_call_wait_summary">कॉल प्रतीक्षा में होने पर टॉर्च बंद चालू करें</string>
+    <!-- Screenshot -->
+    <string name="screenshot_type_title">स्क्रीनशॉट प्रकार</string>
+    <string name="screenshot_type_fullscreen">पूर्ण</string>
+    <string name="screenshot_type_partial">आंशिक</string>
+    <!-- Lock icon -->
+    <!-- QS blur -->
+    <!-- HW keys -->
+    <string name="hardware_keys_title">हार्डवेयर</string>
+    <string name="hardware_keys_disable_title">हार्डवेयर बटन</string>
+    <string name="hardware_keys_disable_summary">नेविगेशन के लिए हार्डवेयर बटन्स का प्रयोग करें</string>
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">नेविगेशन बार</string>
+    <string name="navigation_bar_summary">स्क्रीन पर नेविगेशन बटंस दिखाएं</string>
+    <string name="navigation_bar_arrow_keys_title">तीर बटन</string>
+    <string name="navigation_bar_arrow_keys_summary">लिखते समय कर्सर को नियंत्रित करने के लिए बाएं &amp; दाएं तीर का निशान दिखाएं</string>
+    <!-- Button backlight -->
+    <string name="button_backlight_title">बटन बैकलाइट</string>
+    <!-- Long swipe gestures -->
+    <!-- Full screen gestures -->
+    <!-- Back gesture -->
+    <!-- Media heads up -->
+    <!-- FOD animation -->
+    <string name="fod_recognizing_animation_title">एनीमेशन पहचान रहा है</string>
+    <string name="fod_recognizing_animation_summary">आपकी उंगली पहचानते समय एक एनीमेशन दिखाएं</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_title">अनुकुलित प्लेबैक</string>
+    <string name="adaptive_playback_timeout_title">समय अंतराल</string>
+    <string name="adaptive_playback_timeout_30_secs">30 सेकंड</string>
+    <string name="adaptive_playback_timeout_1_min">1 मिनट</string>
+    <string name="adaptive_playback_timeout_2_min">2 मिनट</string>
+    <string name="adaptive_playback_timeout_5_min">5 मिनट</string>
+    <string name="adaptive_playback_timeout_10_min">10 मिनट</string>
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">स्क्रीन बंद एफओडी</string>
+    <string name="screen_off_fod_summary">स्क्रीन बंद होने पर भी फिंगरप्रिंट स्कैनर का इस्तेमाल करें</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">आईएमई बटन का स्थान</string>
+    <string name="navigation_bar_ime_space_summary">कीबोर्ड के नीचे आईएमई बटन का स्थान दिखाएं</string>
+    <!-- Display cutout -->
+    <!-- Smart pulldown-->
+    <!-- Sensor block per-package -->
+    <!-- Battery Bar -->
+    <!-- Status Bar Ticker -->
+    <!-- Headset ringtone audio focus -->
+    <!-- QS tile tint -->
+    <!-- QS statusbar background -->
+    <!-- Notification count -->
+    <!-- Dashboard -->
+    <!-- Pulse -->
+</resources>
