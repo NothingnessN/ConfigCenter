@@ -1,0 +1,204 @@
+From 4db853603e0b5c4046f122ec1c540b7066bfb09c Mon Sep 17 00:00:00 2001
+From: NothingnessN <NothingnessN@users.noreply.github.com>
+Date: Wed, 25 Nov 2026 09:34:35 +0300
+Subject: [PATCH] Settings: host D4RK ConfigCenter
+
+---
+ Android.bp                                    |  8 ++++--
+ AndroidManifest.xml                           | 12 +++++++++
+ proguard.flags                                | 20 ++++++++++++++
+ res/xml/top_level_settings.xml                | 12 +++++++++
+ .../settings/ConfigCenterActivity.java        | 26 +++++++++++++++++++
+ .../core/gateway/SettingsGateway.java         | 26 +++++++++++++++++++
+ 6 files changed, 102 insertions(+), 2 deletions(-)
+ create mode 100644 src/com/android/settings/ConfigCenterActivity.java
+
+diff --git a/Android.bp b/Android.bp
+index e34c126..4c3902e 100644
+--- a/Android.bp
++++ b/Android.bp
+@@ -53,7 +53,10 @@ android_library {
+         "SettingsLib-search-defaults",
+     ],
+ 
+-    srcs: ["src/**/*.java", "src/**/*.kt"],
++    srcs: ["src/**/*.java", "src/**/*.kt", ":D4RKConfigCenter-srcs"],
++
++    // Generate a ConfigCenter R alias from this same Settings resource table.
++    aaptflags: ["--extra-packages", "com.d4rk.config.center"],
+ 
+     static_libs: [
+         "androidx-constraintlayout_constraintlayout",
+@@ -97,6 +100,7 @@ android_library {
+         "vendor.lineage.fastcharge-V1.0-java",
+         "SystemUISharedLib",
+         "VendorSupport-preference",
++        "D4RKConfigCenter-resources",
+         "kotlin-stdlib",
+         "kotlinx_coroutines_android",
+         "kotlinx_coroutines",
+@@ -148,7 +152,7 @@ filegroup {
+ // over all the sources together.
+ filegroup {
+     name: "Settings_srcs",
+-    srcs: ["src/**/*.java", "src/**/*.kt"],
++    srcs: ["src/**/*.java", "src/**/*.kt", ":D4RKConfigCenter-srcs"],
+ }
+ 
+ filegroup {
+diff --git a/AndroidManifest.xml b/AndroidManifest.xml
+index 586d818..93df532 100644
+--- a/AndroidManifest.xml
++++ b/AndroidManifest.xml
+@@ -219,6 +219,18 @@
+                   android:theme="@style/Theme.SubSettings"
+                   android:taskAffinity="com.android.settings.root" />
+ 
++        <activity android:name=".ConfigCenterActivity"
++                  android:label="@string/config_center_title"
++                  android:icon="@drawable/d4rk_ic_settings_about"
++                  android:exported="false"
++                  android:theme="@style/Theme.SubSettings"
++                  android:taskAffinity="com.android.settings.root">
++            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
++                       android:value="com.d4rk.config.center.ConfigCenter" />
++            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
++                       android:value="@string/d4rk_menu_key_config_center" />
++        </activity>
++
+         <activity android:name=".Settings$CreateShortcutActivity"
+                   android:exported="true"
+                   android:label="@string/settings_shortcut">
+diff --git a/proguard.flags b/proguard.flags
+index 4264a85..71d270b 100644
+--- a/proguard.flags
++++ b/proguard.flags
+@@ -8,6 +8,26 @@
+ # Keep all Fragments in this package, which are used by reflection.
+ -keep public class com.android.settings.** extends androidx.fragment.app.Fragment
+ 
++# ConfigCenter fragment names are persisted by FragmentManager and referenced in XML.
++-keep public class com.d4rk.config.center.ConfigCenter { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.About { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.Buttons { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.DisplayCutoutForceFullscreenSettings { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.HeadsUp { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.LockScreen { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.Media { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.Misc { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.Notifications { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.Screen { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.SmartPixels { public <init>(); }
++-keep public class com.d4rk.config.center.fragments.StatusBar { public <init>(); }
++-keep public class com.d4rk.config.center.preferences.CustomDialogPreference$CustomPreferenceDialogFragment { public <init>(); }
++
++# Custom XML-inflated preference; no removed-feature classes are retained.
++-keep public class com.d4rk.config.center.fragments.ButtonBacklightBrightness {
++    public <init>(android.content.Context, android.util.AttributeSet);
++}
++
+ # Keep all preference controllers needed by slice and DashboardFragment.
+ -keep class * extends com.android.settings.core.BasePreferenceController {
+     *;
+diff --git a/res/xml/top_level_settings.xml b/res/xml/top_level_settings.xml
+index d050a1f..a0e0a9d 100644
+--- a/res/xml/top_level_settings.xml
++++ b/res/xml/top_level_settings.xml
+@@ -20,6 +20,18 @@
+     xmlns:settings="http://schemas.android.com/apk/res-auto"
+     android:key="top_level_settings">
+ 
++    <com.android.settings.widget.HomepagePreference
++        android:icon="@drawable/d4rk_ic_settings_about"
++        android:key="top_level_config_center"
++        android:order="-160"
++        android:title="@string/config_center_title"
++        android:summary="@string/config_center_dashboard_summary"
++        settings:highlightableMenuKey="@string/d4rk_menu_key_config_center">
++        <intent android:action="android.intent.action.MAIN"
++                android:targetPackage="com.android.settings"
++                android:targetClass="com.android.settings.ConfigCenterActivity" />
++    </com.android.settings.widget.HomepagePreference>
++
+     <com.android.settings.widget.HomepagePreference
+         android:fragment="com.android.settings.network.NetworkDashboardFragment"
+         android:icon="@drawable/ic_settings_wireless"
+diff --git a/src/com/android/settings/ConfigCenterActivity.java b/src/com/android/settings/ConfigCenterActivity.java
+new file mode 100644
+index 0000000..13c1b9f
+--- /dev/null
++++ b/src/com/android/settings/ConfigCenterActivity.java
+@@ -0,0 +1,26 @@
++/*
++ * Copyright (C) 2026 NothingnessN
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++package com.android.settings;
++
++/** Internal Settings host; fragment validation uses the explicit SettingsGateway entries. */
++public class ConfigCenterActivity extends SettingsActivity {
++    @Override
++    public boolean onNavigateUp() {
++        finish();
++        return true;
++    }
++}
+diff --git a/src/com/android/settings/core/gateway/SettingsGateway.java b/src/com/android/settings/core/gateway/SettingsGateway.java
+index 79cc0c1..9f1f77b 100644
+--- a/src/com/android/settings/core/gateway/SettingsGateway.java
++++ b/src/com/android/settings/core/gateway/SettingsGateway.java
+@@ -180,6 +180,19 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
+ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
+ import com.android.settings.wifi.tether.WifiTetherSettings;
+ 
++import com.d4rk.config.center.ConfigCenter;
++import com.d4rk.config.center.fragments.About;
++import com.d4rk.config.center.fragments.Buttons;
++import com.d4rk.config.center.fragments.DisplayCutoutForceFullscreenSettings;
++import com.d4rk.config.center.fragments.HeadsUp;
++import com.d4rk.config.center.fragments.LockScreen;
++import com.d4rk.config.center.fragments.Media;
++import com.d4rk.config.center.fragments.Misc;
++import com.d4rk.config.center.fragments.Notifications;
++import com.d4rk.config.center.fragments.Screen;
++import com.d4rk.config.center.fragments.SmartPixels;
++import com.d4rk.config.center.fragments.StatusBar;
++
+ import con.android.settings.wifi.tether.WifiTetherClientManager;
+ 
+ public class SettingsGateway {
+@@ -189,6 +202,19 @@ public class SettingsGateway {
+      * security exception if the fragment it needs to display is not in this list.
+      */
+     public static final String[] ENTRY_FRAGMENTS = {
++            ConfigCenter.class.getName(),
++            About.class.getName(),
++            Buttons.class.getName(),
++            DisplayCutoutForceFullscreenSettings.class.getName(),
++            HeadsUp.class.getName(),
++            LockScreen.class.getName(),
++            Media.class.getName(),
++            Misc.class.getName(),
++            Notifications.class.getName(),
++            Screen.class.getName(),
++            SmartPixels.class.getName(),
++            StatusBar.class.getName(),
++            com.android.settings.gestures.GestureSettings.class.getName(),
+             AdvancedConnectedDeviceDashboardFragment.class.getName(),
+             CreateShortcut.class.getName(),
+             BluetoothPairingDetail.class.getName(),
+-- 
+2.56.0
+
